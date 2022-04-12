@@ -3,7 +3,7 @@
 	"Language"		"English"
 	"Tokens"
 	{		
-		"DOTA_Tooltip_ability_item_bag_of_gold"							"Bag of Gold"
+		"DOTA_Tooltip_ability_item_bag_of_gold"		"Bag of Gold"
 		
 		"DOTA_Quest_Holdout_Round"					"Round %quest_round%"
 		"DOTA_Quest_Holdout_Round_Subtext"			"%quest_current_value% killed / %quest_target_value% total"
@@ -22,7 +22,7 @@
 		"holdout_instructions_title"				"Holdout Example Addon"
 		"holdout_instructions_body"					"Welcome to the holdout example game mode!"
 
-		"addon_game_name"							"Moo Moo"
+		"addon_game_name"							"MOO MOO"
 
 		"holdout_gold_col"							"GOLD COLLECTED"
 		"holdout_kills"								"KILLS"
@@ -49,13 +49,15 @@
 
 		"DOTA_Holdout_CreepKillWinner"				"%s1 killed the most creeps this round for a 250 gold bonus! (%s2)"
 		"DOTA_Holdout_GoldBagExpired"				"%s1Gold bag expired! (%s2 total)"
-
-		// Hero Names and Abilities
-		//
+		
+		"moo_secrets_shop"							"Secrets Shop"
+		"DOTA_Subshop_1"							"Orb Secrets"
+		"place_secret_shop"							"Secret Place"
+		"DOTA_Subshop_1"							"Orb Secrets"
 		//-------------------------------------------------------------------------------------
 		//
-		// Moo Moo
-		"npc_dota_hero_elder_titan"					"Moo Moo"
+		// Generic Hidden
+		"DOTA_Tooltip_ability_generic_hidden"													""
 		//
 		//-------------------------------------------------------------------------------------
 		//
@@ -66,6 +68,7 @@
 		"DOTA_Tooltip_ability_attribute_bonus_Lua_all_stats"									"All stats per level:"
 		//
 		//-------------------------------------------------------------------------------------
+		// Custom Moo Moo Heroes:
 		//
 		//
 		"npc_dota_hero_life_stealer"															"Cannibal"
@@ -108,15 +111,15 @@
 		"npc_dota_hero_razor"																	"Biohazard"
 		// Bryan's Breath
 		"DOTA_Tooltip_ability_razor_bryans_breath_lua"											"Bryan's Breath"
-		"DOTA_Tooltip_ability_razor_bryans_breath_lua_Description"								"The Biohazard unleashes a poison of breath at enemy units dealing damage in an AOE then damage over time. The poisoned unit has its movement speed slowed for the duration"
+		"DOTA_Tooltip_ability_razor_bryans_breath_lua_Description"								"The Biohazard unleashes a poison of breath at enemy units dealing damage in an AOE then applies damage over time. The poisoned unit has its movement speed slowed for the duration"
 		"DOTA_Tooltip_ability_razor_bryans_breath_lua_Lore"										""
 		"DOTA_Tooltip_ability_razor_bryans_breath_lua_radius"									"Radius:"
 		"DOTA_Tooltip_ability_razor_bryans_breath_lua_strike_damage"							"Initial Damage:"
 		"DOTA_Tooltip_ability_razor_bryans_breath_lua_duration_damage"							"Damage Per Second:"
 		"DOTA_Tooltip_ability_razor_bryans_breath_lua_movement_slow"							"Movement Slow Percent:"
 		"DOTA_Tooltip_ability_razor_bryans_breath_lua_duration"									"Duration:"
-        "DOTA_Tooltip_modifier_razor_bryans_breath_lua"									            "Bryan's Breath"
-		"DOTA_Tooltip_modifier_razor_bryans_breath_lua_Description"                                   "This unit is hit for %duration_damage% per second"
+        "DOTA_Tooltip_modifier_razor_bryans_breath_lua"									        "Bryan's Breath"
+		"DOTA_Tooltip_modifier_razor_bryans_breath_lua_Description"                             "This unit is hit for %duration_damage% per second"
 		// Jovan's Touch
 		"DOTA_Tooltip_ability_razor_jovans_touch_lua"											"Jovan's Touch"
 		"DOTA_Tooltip_ability_razor_jovans_touch_lua_Description"								"Each of the Biohazard's attacks injects a deadly poison that causes the target to explode violently on death, the target will explode dealing damage to nearby enemies."
@@ -137,17 +140,19 @@
 		"DOTA_Tooltip_modifier_razor_ronels_skin_lua_effect_Description"                        "This unit has its magic attack damage reduced and its armor reduced"
 		// Tiny Treb
 		"DOTA_Tooltip_ability_razor_tiny_treb_lua"												"Tiny Treb"
-		"DOTA_Tooltip_ability_razor_tiny_treb_lua_Description"									"<h1>Passive: Spawn Skeleton</h1> Gives a %percent_chance%% to create a Skeleton from a fallen enemy unit.<br><br>Skeleton Duration: %skeleton_duration% seconds<br>Skeleton HP: %skeleton_life_tooltip%<br>Skeleton Damage: %skeleton_damage%<br>Skeleton Armor %skeleton_armor%"
+		"DOTA_Tooltip_ability_razor_tiny_treb_lua_Description"									"<h1>Passive: Spawn Skeleton</h1> Gives a %percent_chance%%% chance to create a Skeleton from a fallen enemy unit.<br><br>Skeleton Duration: %skeleton_duration% seconds<br>Skeleton HP: %skeleton_life_tooltip%<br>Skeleton Damage: %skeleton_damage%<br>Skeleton Armor %skeleton_armor%"
 		"DOTA_Tooltip_ability_razor_tiny_treb_lua_Lore"											""
-        "DOTA_Tooltip_ability_razor_tiny_treb_lua_bonus_agility"								"+ Bonus Agility:"
-
+		"DOTA_Tooltip_ability_razor_tiny_treb_lua_bonus_agility"								"+Agility"
 		// Troy's Strength
 		"DOTA_Tooltip_ability_razor_troys_strength_lua"											"Troy's Strength"
 		"DOTA_Tooltip_ability_razor_troys_strength_lua_Description"								"The Biohazard using the power of fallen corpses giving him a boost in both strength and agility<br><br>Automatically Leveled at Level 20"
 		"DOTA_Tooltip_ability_razor_troys_strength_lua_Lore"									""
-		"DOTA_Tooltip_ability_razor_troys_strength_lua_bonus_str_agi"							"Bonus Strength and Agility:"
-
-
+		"DOTA_Tooltip_ability_razor_troys_strength_lua_bonus_str_agi"							"+ Strength and Agility"
+		//
+		//-------------------------------------------------------------------------------------
+		//
+		
+		
 		// Unit Names
 		"npc_dota_creature_basic_zombie"			"Zombie"
 		"npc_dota_creature_basic_zombie_exploding"	"Volatile Zombie"
@@ -191,13 +196,6 @@
 		"npc_dota_summoned_guardian_angel"			"Guardian Angel"
 		"npc_dota_creature_treant"					"Treant"
 		"npc_dota_creature_buff_witch"				"Empowering Wraith"
-		// Wave 13
-		"npc_dota_creature_spell_breaker"			"Spell Breaker"
-		// Wave 14
-		"npc_dota_creature_rifleman"				"Rifelman"
-		"npc_dota_creature_thor"					"Thor"
-		// Wave 15
-		"npc_dota_creature_magroth"					"Magroth the Defender"
 		
 		// Creature Ability Names
 		"DOTA_Tooltip_Ability_creature_aura_health_regen"					"Healing Aura"
@@ -259,8 +257,9 @@
 		"DOTA_Tooltip_creature_slithereen_crush_slow"						"Stunned"
 		
 		// Tower Names
-
-		// Round Names
+		"npc_dota_holdout_tower"						"Tower"
+		"npc_dota_holdout_tower_spawn_protection"		"Tower"
+		"npc_dota_defender_fort"						"Defender's Ancient"
 		
 		"DOTA_Holdout_Round_Kobolds_Quest_Title"		"Round %quest_round%%quest_extra_text% Invaders Defeated"
 		"DOTA_Holdout_Round_Zombies_Quest_Title"		"Round %quest_round%%quest_extra_text% Invaders Defeated"
@@ -287,105 +286,6 @@
 		"DOTA_Holdout_Round_Pudge_Title"				"Chin Choppa' Chin Choppa'!"
 		"DOTA_Holdout_Round_Gyrocopter"					"Danger Zone"
 		"DOTA_Holdout_Round_StayFrosty_Title"			"Stay Frosty!"
-
-		// Item Names
-		"DOTA_Tooltip_ability_item_ruthless_gauntlet"						"Ruthless Gauntlet"
-		"DOTA_Tooltip_ability_item_ruthless_gauntlet_Lore"					""
-		"DOTA_Tooltip_ability_item_ruthless_gauntlet_attack_speed"			"+ Attack Speed"
-
-		"DOTA_Tooltip_ability_item_mithril_shirt"							"Mithril Shirt"
-		"DOTA_Tooltip_ability_item_mithril_shirt_Lore"						"A shirt of mail forged from mithril given by Thorin Oakenshield to Bilbo Baggins"
-		"DOTA_Tooltip_ability_item_mithril_shirt_armor"						"+ Armor"
-
-		"DOTA_Tooltip_ability_item_studded_leather"							"Studded Leather"
-		"DOTA_Tooltip_ability_item_studded_leather_Lore"					""
-		"DOTA_Tooltip_ability_item_studded_leather_attack_speed"			"+ Attack Speed"
-		"DOTA_Tooltip_ability_item_studded_leather_armor"					"+ Armor"
-
-		"DOTA_Tooltip_ability_item_orb_of_fire"								"Orb of Fire"
-		"DOTA_Tooltip_ability_item_orb_of_fire_Lore"						""
-		"DOTA_Tooltip_ability_item_orb_of_fire_all_stats"					"+ All Stats"
-
-		"DOTA_Tooltip_ability_item_orb_of_frost"							"Orb of Frost"
-		"DOTA_Tooltip_ability_item_orb_of_frost_Lore"						""
-		"DOTA_Tooltip_ability_item_orb_of_frost_all_stats"					"+ All Stats"
-
-		"DOTA_Tooltip_ability_item_orb_of_darkness"							"Orb of Darkness"
-		"DOTA_Tooltip_ability_item_orb_of_darkness_Lore"					""
-		"DOTA_Tooltip_ability_item_orb_of_darkness_all_stats"				"+ All Stats"
-
-		"DOTA_Tooltip_ability_item_orb_of_lightning"						"Orb of Lightning"
-		"DOTA_Tooltip_ability_item_orb_of_lightningt_Lore"					""
-		"DOTA_Tooltip_ability_item_orb_of_lightning_all_stats"				"+ All Stats"
-
-		"DOTA_Tooltip_ability_item_omniscience"								"Omniscience"
-		"DOTA_Tooltip_ability_item_omniscience_Lore"						""
-		"DOTA_Tooltip_ability_item_omniscience_hp_regen"					"+ HP Regen"
-		"DOTA_Tooltip_ability_item_omniscience_mana_regen_bonus"			"+ Mana Regen"
-
-        "DOTA_Tooltip_ability_item_pendant_of_flesh"						"Pendant Of Flesh"
-		"DOTA_Tooltip_ability_item_pendant_of_flesh_Lore"				    ""
-		"DOTA_Tooltip_ability_item_pendant_of_flesh_hit_points"		        "+ Hit Points"
-		"DOTA_Tooltip_ability_item_pendant_of_flesh_mana_bonus"			    "+ Mana"
-        "DOTA_Tooltip_ability_item_pendant_of_flesh_mana_regen_bonus"		"+ Mana Regen"
-        "DOTA_Tooltip_ability_item_pendant_of_flesh_hp_regen"				"+ HP Regen"
-
-		"DOTA_Tooltip_ability_item_lexicon"									"Lexicon"
-		"DOTA_Tooltip_ability_item_lexicon_Description"						"<h1>Active: Transmute</h1> Kills a non-hero target for %bonus_gold% gold and %xp_multiplier%x experience. <br><br> Cannot be used on Ancient Creeps or Heroes.<br><br>Range: %transmute_cast_range_tooltip%"
-		"DOTA_Tooltip_ability_item_lexicon_Lore"							""
-		"DOTA_Tooltip_ability_item_lexicon_attack_speed"					"+ Attack Speed"
-		"DOTA_Tooltip_ability_item_lexicon_armor"							"+ Armor"
-
-		"DOTA_Tooltip_ability_item_recipe_lexicon"							"Lexicon Recipe"
-
-        "DOTA_Tooltip_ability_item_blood_assault"							"Blood Assault"
-		"DOTA_Tooltip_ability_item_blood_assault_Lore"					    "The heart of the legendary dragon Aszune"
-		"DOTA_Tooltip_ability_item_blood_assault_strength"			        "+ Strength"
-		"DOTA_Tooltip_ability_item_blood_assault_hit_points"			    "+ Hit Points"
-        "DOTA_Tooltip_ability_item_blood_assault_mana_bonus"				"+ Mana"
-        "DOTA_Tooltip_ability_item_blood_assault_hp_regen"					"+ HP Regen"
-
-        "DOTA_Tooltip_ability_item_aerogun"									"Aerogun"
-		"DOTA_Tooltip_ability_item_aerogun_Description"						"<h1>Passive: Venom</h1> Affected units who die under Venom explode violently dealing %venom_damage% damage in a %radius% radius. <br><br> Venom is Magic Damage.<br><br>Bonus Gold per Kill: %bonus_gold%"
-        "DOTA_Tooltip_ability_item_aerogun_Note0"                           "Biohazard's Jovan's Touch stacks with Venom"
-		"DOTA_Tooltip_ability_item_aerogun_Lore"							"The most potent venom"
-		"DOTA_Tooltip_ability_item_aerogun_strength"					    "+ Strength"
-		"DOTA_Tooltip_ability_item_aerogun_hp_regen"						"+ HP Regen"
-        "DOTA_Tooltip_ability_item_aerogun_buff_duration"					"Debuff Duration:"
-
-        "DOTA_Tooltip_ability_item_recipe_aerogun"							"Aerogun Recipe"
-
-        "DOTA_Tooltip_ability_item_powerstone"							    "Powerstone"
-		"DOTA_Tooltip_ability_item_powerstone_Note0"					    "Powerstone is shareable."
-		"DOTA_Tooltip_ability_item_powerstone_Lore"					        ""
-		"DOTA_Tooltip_ability_item_powerstone_attack_speed"			        "+ Attack Speed"
-
-        "DOTA_Tooltip_ability_item_ultimate_axe"							"Ultimate Axe"
-		"DOTA_Tooltip_ability_item_ultimate_axe_Lore"					    ""
-		"DOTA_Tooltip_ability_item_ultimate_axe_strength"			        "+ Strength"
-
-		"DOTA_Tooltip_ability_item_ying"									"Ying"
-		"DOTA_Tooltip_ability_item_ying_Lore"					    		""
-		"DOTA_Tooltip_ability_item_ying_mana"			        			"+ Mana"
-
-		"DOTA_Tooltip_ability_item_yang"									"Yang"
-		"DOTA_Tooltip_ability_item_yang_Lore"					    		""
-		"DOTA_Tooltip_ability_item_yang_hit_points"			        		"+ Hit Points"
-
-		"DOTA_Tooltip_ability_item_celestial_sapphire"						"Celestial Sapphire"
-		"DOTA_Tooltip_ability_item_celestial_sapphire_Lore"				    ""
-		"DOTA_Tooltip_ability_item_celestial_sapphire_hp_regen"		        "+ HP Regen"
-
-		"DOTA_Tooltip_ability_item_periapt_stone"							"Periapt Stone"
-		"DOTA_Tooltip_ability_item_periapt_stone_Lore"					    ""
-		"DOTA_Tooltip_ability_item_periapt_stone_mana_regen_bonus"			"+ Mana Regen"
-
-		"DOTA_Tooltip_ability_item_moo_tshirt"								"Moo T-Shirt"
-		"DOTA_Tooltip_ability_item_moo_tshirt_Lore"					    	"100% Cotton high-qulaity fabric: hand wash only!"
-		"DOTA_Tooltip_ability_item_moo_tshirt_all_stats"					"+ All Stats"
-
-
-
 
 		"DOTA_Tooltip_ability_item_greater_clarity"						"Greater Clarity"
 		"DOTA_Tooltip_ability_item_greater_clarity_Note0"				"Greater Clarity is shareable."
@@ -972,5 +872,104 @@
 		"DOTA_Tooltip_ability_holdout_death_ward_bounces"							"<font color='#70EA72'>BOUNCES:</font>"
 		"DOTA_Tooltip_ability_holdout_death_ward_damage_scepter"					"SCEPTER DAMAGE:"
 		"DOTA_Tooltip_ability_holdout_death_ward_scepter_bounces"					"<font color='#70EA72'>SCEPTER BOUNCES:</font>"
+
+
+		// Items
+		"DOTA_Tooltip_ability_item_mithril_shirt"									"Mithril Shirt"
+		"DOTA_Tooltip_ability_item_mithril_shirt_Lore"								"A shirt of mail forged from mithril given by Thorin Oakenshield to Bilbo Baggins"
+		"DOTA_Tooltip_ability_item_mithril_shirt_armor"								"+ Armor"
+
+		"DOTA_Tooltip_ability_item_orb_of_fire"										"Orb of Fire"
+		"DOTA_Tooltip_ability_item_orb_of_fire_Lore"								""
+		"DOTA_Tooltip_ability_item_orb_of_fire_all_stats"							"+ All Stats"
+
+		"DOTA_Tooltip_ability_item_orb_of_frost"									"Orb of Frost"
+		"DOTA_Tooltip_ability_item_orb_of_frost_Lore"								""
+		"DOTA_Tooltip_ability_item_orb_of_frost_all_stats"							"+ All Stats"
+
+		"DOTA_Tooltip_ability_item_orb_of_darkness"									"Orb of Darkness"
+		"DOTA_Tooltip_ability_item_orb_of_darkness_Lore"							""
+		"DOTA_Tooltip_ability_item_orb_of_darkness_all_stats"						"+ All Stats"
+
+		"DOTA_Tooltip_ability_item_orb_of_lightning"								"Orb of Lightning"
+		"DOTA_Tooltip_ability_item_orb_of_lightningt_Lore"							""
+		"DOTA_Tooltip_ability_item_orb_of_lightning_all_stats"						"+ All Stats"
+
+		"DOTA_Tooltip_ability_item_tonic_1"											"Tonic 1"
+		"DOTA_Tooltip_ability_item_tonic_1_Lore"									"A blade that turns the mind into that of a psychotic murderer."
+		"DOTA_Tooltip_ability_item_tonic_1_agility"									"+ Agility"
+		"DOTA_Tooltip_ability_item_tonic_1_damage"									"+ Damage"
+		"DOTA_Tooltip_ability_item_tonic_1_evasion"									"%+ Evasion"
+		"DOTA_Tooltip_ability_item_tonic_1_Note0"									"Stacks diminishingly with other sources of Evasion."
+
+		"DOTA_Tooltip_ability_item_tonic_2"											"Tonic 2"
+		"DOTA_Tooltip_ability_item_tonic_2_Lore"									"A blade that turns the mind into that of a psychotic murderer."
+		"DOTA_Tooltip_ability_item_tonic_2_agility"									"+ Agility"
+		"DOTA_Tooltip_ability_item_tonic_2_damage"									"+ Damage"
+		"DOTA_Tooltip_ability_item_tonic_2_evasion"									"%+ Evasion"
+		"DOTA_Tooltip_ability_item_tonic_2_Note0"									"Stacks diminishingly with other sources of Evasion."
+
+		"DOTA_Tooltip_ability_item_tonic_3"											"Tonic 3"
+		"DOTA_Tooltip_ability_item_tonic_3_Lore"									"A blade that turns the mind into that of a psychotic murderer."
+		"DOTA_Tooltip_ability_item_tonic_3_agility"									"+ Agility"
+		"DOTA_Tooltip_ability_item_tonic_3_damage"									"+ Damage"
+		"DOTA_Tooltip_ability_item_tonic_3_evasion"									"%+ Evasion"
+		"DOTA_Tooltip_ability_item_tonic_3_Note0"									"Stacks diminishingly with other sources of Evasion."
+
+		"DOTA_Tooltip_ability_item_tonic_4"											"Tonic 4"
+		"DOTA_Tooltip_ability_item_tonic_4_Lore"									"A blade that turns the mind into that of a psychotic murderer."
+		"DOTA_Tooltip_ability_item_tonic_4_agility"									"+ Agility"
+		"DOTA_Tooltip_ability_item_tonic_4_damage"									"+ Damage"
+		"DOTA_Tooltip_ability_item_tonic_4_evasion"									"%+ Evasion"
+		"DOTA_Tooltip_ability_item_tonic_4_Note0"									"Stacks diminishingly with other sources of Evasion."
+
+		"DOTA_Tooltip_ability_item_tonic_5"											"Tonic 5"
+		"DOTA_Tooltip_ability_item_tonic_5_Lore"									"A blade that turns the mind into that of a psychotic murderer."
+		"DOTA_Tooltip_ability_item_tonic_5_agility"									"+ Agility"
+		"DOTA_Tooltip_ability_item_tonic_5_damage"									"+ Damage"
+		"DOTA_Tooltip_ability_item_tonic_5_evasion"									"%+ Evasion"
+		"DOTA_Tooltip_ability_item_tonic_5_Note0"									"Stacks diminishingly with other sources of Evasion."
+
+
+		"DOTA_Tooltip_ability_item_mattock"											"Mattock"
+		"DOTA_Tooltip_ability_item_mattock_Lore"									"Has the power to bash into the enemy's skull"
+		"DOTA_Tooltip_ability_item_mattock_damage"									"+ Damage"
+		"DOTA_Tooltip_ability_item_mattock_all_stats"								"+ All Stats"
+		"DOTA_Tooltip_ability_item_mattock_Description"								"<h1>Passive: Bash</h1>Grants melee heroes a %bash_chance_melee%%% chance on hit to stun the target for %bash_duration% seconds and deal %bash_damage% bonus damage. Bash pierces evasion. Bash chance for ranged heroes is %bash_chance_ranged%%%<br><br><font color='#ff0000'>TODO: Make not stack with other bashes: currently does not handle other bashes.</font>"
+
+		"DOTA_Tooltip_ability_item_wirts"											"Wirt's Left Leg"
+		"DOTA_Tooltip_ability_item_wirts_Lore"										"We are in the damn Cow Level"
+		"DOTA_Tooltip_ability_item_wirts_move_speed"								"+ Move Speed"
+		"DOTA_Tooltip_ability_item_wirts_attack_speed"								"+ Attack Speed"
+		"DOTA_Tooltip_ability_item_wirts_all_stats"									"+ All Stats"
+		"DOTA_Tooltip_ability_item_wirts_Description"								"<h1>Active: Blink</h1>Teleport to a target point up to %range% units away."
+		"DOTA_Tooltip_ability_item_wirts_Note0"										"Disjoints Projectiles"
+		"DOTA_Tooltip_ability_item_wirts_Note1"										"Overextending the blink range of %range% will result in a shorter blink range of %over_range%"
+
+		"DOTA_Tooltip_ability_item_moo_tshirt"										"Moo T-Shirt"
+		"DOTA_Tooltip_ability_item_moo_tshirt_Lore"					    			"100% Cotton high-qulaity fabric: hand wash only!"
+		"DOTA_Tooltip_ability_item_moo_tshirt_all_stats"							"+ All Stats"
+
+		"DOTA_Tooltip_ability_item_halberd_axe"										"Halberd Axe"
+		"DOTA_Tooltip_ability_item_halberd_axe_Lore"								"One of the first tools developed by early humans"
+		"DOTA_Tooltip_ability_item_halberd_axe_damage"								"+ Damage"
+		"DOTA_Tooltip_ability_item_halberd_axe_all_stats"							"+ All Stats"
+		"DOTA_Tooltip_ability_item_halberd_axe_Description"							"Gives a %bonus_damage_chance%%% to inflict additional %bonus_damage% damage on each attack."						
+
+		"DOTA_Tooltip_ability_item_tectonic"										"Tectonic"
+		"DOTA_Tooltip_ability_item_tectonic_Lore"									"The theory goes that when this axe swings, the earth's lithosphere shifts"
+		"DOTA_Tooltip_ability_item_tectonic_agility"								"+ Agility"
+		"DOTA_Tooltip_ability_item_tectonic_damage"									"+ Damage"
+		"DOTA_Tooltip_ability_item_tectonic_evasion"								"%+ Evasion"
+		"DOTA_Tooltip_ability_item_tectonic_Description"							"<h1>Passive: Bash</h1>Grants melee heroes a %bash_chance_melee%%% chance on hit to stun the target for %bash_duration% seconds and deal %bash_damage% bonus damage. Bash pierces evasion. Bash chance for ranged heroes is %bash_chance_ranged%%%<br><br><font color='#ff0000'>TODO: Make not stack with other bashes: currently does not handle other bashes.</font>"
+
+		"DOTA_Tooltip_ability_item_moo_axe"											"Moo Axe"
+		"DOTA_Tooltip_ability_item_moo_axe_Lore"									""
+		"DOTA_Tooltip_ability_item_moo_axe_all_stats"								"+ All Stats"
+		"DOTA_Tooltip_ability_item_moo_axe_Description"								"<h1>Passive: Bash</h1>Grants heroes a %bash_chance%%% chance on hit to stun the target for %bash_duration% seconds and deal %bash_damage% bonus damage. Bash pierces evasion.<br><br><font color='#70EA72'>Stacks with other Bash passives</font>"
+
+
+
+
 	}
 }
